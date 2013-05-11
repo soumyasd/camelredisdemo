@@ -15,6 +15,7 @@
     <bean id="twitter-route-id" class="demo.websocket.TwitterStreamRoute" />
     --> 
     <bean id="redis-sub-route-id" class="demo.redis.RedisSubscriberRoute" />
+    <bean id="redisserializer" class="org.springframework.data.redis.serializer.StringRedisSerializer" /> 
 
 </beans>
 
