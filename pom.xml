@@ -98,7 +98,9 @@
 		<dependency>
 		 	<groupId>org.springframework.data</groupId>
 		 	<artifactId>spring-data-redis</artifactId>
-		 	<version>1.0.3.RELEASE</version>
+                        <!-- IMPORTANT - as of 10-May-2013 the Redis Camel
+                             component only works with version 1.0.0.RELASE -->
+		 	<version>1.0.0.RELEASE</version>
 		</dependency> 
 
                 <dependency>
